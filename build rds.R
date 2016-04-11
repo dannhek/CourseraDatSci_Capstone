@@ -1,6 +1,6 @@
 #Model v1.2
-setwd("~/Coursera/Data Science Specialization/Data Science Capstone")
-load("~/Coursera/Data Science Specialization/Data Science Capstone/.RData")
+#setwd("~/Coursera/Data Science Specialization/Data Science Capstone")
+#load("~/Coursera/Data Science Specialization/Data Science Capstone/.RData")
 source("core functions.R")
 
 #First, Create a massive Corpus (List)

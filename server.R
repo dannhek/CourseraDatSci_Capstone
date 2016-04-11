@@ -1,7 +1,7 @@
 library(shiny)
 
 
-#source("core functions.R")
+source("core functions.R")
 dfm2 <- readRDS("dfm2_20160324.RDS")
 dfm3 <- readRDS("dfm3_20160324.RDS")
 dfm4 <- readRDS("dfm4_20160324.RDS")

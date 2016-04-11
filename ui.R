@@ -1,5 +1,5 @@
 library(shiny)
-setwd("~/Coursera/Data Science Specialization/Data Science Capstone/data product")
+#setwd("~/Coursera/Data Science Specialization/Data Science Capstone/data product")
 
 # Define UI for application that reads in words and 
 shinyUI(fluidPage(
@@ -42,7 +42,7 @@ shinyUI(fluidPage(
                               a(href="https://www.coursera.org/learn/data-science-project/home/welcome","Data Science Specialization Capstone Project"),
                              "."),
                              h4("For more information, see:"),
-                             p("Github: ",a(href="https://github.com/dannhek","github.com/dannhek")),
+                             p("Github: ",a(href="https://github.com/dannhek/CourseraDatSci_Capstone","github.com/dannhek")),
                              p("RPubs Presentation:", a(href="",""))
                              
                      )
