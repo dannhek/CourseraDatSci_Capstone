@@ -36,14 +36,17 @@ shinyUI(fluidPage(
                              
                     ),
                     tabPanel(p("About"),
-                             h2("This is the about Page"),
+                             h3("About this Application"),
                              p("This page was created as part of the",
                               a(href="https://www.Coursera.org","Coursera"),
                               a(href="https://www.coursera.org/learn/data-science-project/home/welcome","Data Science Specialization Capstone Project"),
                              "."),
+                             h4("How to use"),
+                             p("To use this application, simply enter a phrase and click the \"Predict Next Word\" button. You can also adjust the weights given to 2, 3, and 4 gram predictions to favor longer phrases (higher 4-gram weight) or shorter phrases (higher 2-gram weight). "),
                              h4("For more information, see:"),
                              p("Github: ",a(href="https://github.com/dannhek/CourseraDatSci_Capstone","github.com/dannhek")),
-                             p("RPubs Presentation:", a(href="",""))
+                             p("RPubs Presentation:", a(href="","http://rpubs.com/tattooed_economist/CourseraDSCapstone")),
+                             p("Github ReadMe: ",a(href="https://github.com/dannhek/CourseraDatSci_Capstone/blob/master/README.md","README.MD"))
                              
                      )
                 )
